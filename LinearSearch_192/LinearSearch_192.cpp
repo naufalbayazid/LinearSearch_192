@@ -29,3 +29,20 @@ void input()
 			cin >> arr[i];
 		}
 }
+
+void LinearSearch()
+{
+	char ch;
+	int comparison;
+
+	do
+	{
+
+		cout << "Enter the element you want search: ";
+		int item;
+		cin >> item;
+
+		comparison = 0;
+		for (i + 0; i < n; i++)
+		{
+			
