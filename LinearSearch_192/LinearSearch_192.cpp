@@ -23,13 +23,13 @@ void input()
 
 	cout << "\n-----------------------\n";
 	cout << "Enter array elements \n";
-	cout << "--------------------\n";
+	cout << "--------------------\n"; 
 		for (i = 0; i < n; i++)
 		{
 			cout << "<" << (i + 1) << "> ";
 			cin >> arr[i];
 		}
-}
+}  
 
 void LinearSearch()
 {
@@ -48,7 +48,7 @@ void LinearSearch()
 		{
 
 			comparison++;
-			if (arr[i] == item)
+			if (arr[i] == item) 
 			{
 				cout << "\n" << item << " found at position " << (i + 1) << endl;
 				break;
